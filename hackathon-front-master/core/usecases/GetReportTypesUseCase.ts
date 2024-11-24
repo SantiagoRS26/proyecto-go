@@ -14,6 +14,7 @@ export class GetReportTypesUseCase {
       const reportTypeDTOs: ReportTypeDTO[] = (await this.reportRepository.getReportTypes()).reportTypes;
       
       const reportTypes: ReportType[] = reportTypeDTOs.map(dto => new ReportType(dto));
+      console.log("caso de uso: ", reportTypes);
       return reportTypes;
     } catch (error: any) {
       throw new Error(error.message || "Error al obtener tipos de reportes");

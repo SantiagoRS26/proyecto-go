@@ -173,7 +173,7 @@ const InterestZonesMap = ({
       };
 
       const newInterestZoneRequest = await axiosInstance.post(
-        "/interest-zones",
+        "/interest-zones/",
         newInterestZone
       );
       setInterestZoneDialog(false);

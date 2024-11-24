@@ -16,9 +16,7 @@ export class MapboxStaticService {
 		let marker;
 
 		if (iconUrl) {
-			marker = `pin-s+555555(${longitude},${latitude})`;
-			// Con marker personalizado
-			//marker = `url-${encodeURIComponent(iconUrl)}(${longitude},${latitude})`;
+			marker = `url-${encodeURIComponent(iconUrl)}(${longitude},${latitude})`;
 		} else {
 			marker = `pin-s+555555(${longitude},${latitude})`;
 		}

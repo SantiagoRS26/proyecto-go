@@ -1,0 +1,136 @@
+{
+    "reportTypes": [
+        {
+            "_id": "670c118a937774438d8e0f75",
+            "type": "Accidente de tránsito",
+            "description": "Colisión entre vehículos o vehículos y peatones, causando interrupción del tráfico.",
+            "icons": {
+                "icon_normal": "https://cicdesarrollos.com/Iconos/car_crash/car_crash.png",
+                "icon_small": "https://cicdesarrollos.com/Iconos/car_crash/redimensionada_32x32.png"
+            },
+            "createdAt": "2024-10-13T18:29:30.718Z",
+            "__v": 0
+        },
+        {
+            "_id": "670c118a937774438d8e0f7e",
+            "type": "Congestión vehicular",
+            "description": "Tráfico pesado sin una causa aparente específica.",
+            "icons": {
+                "icon_normal": "https://cicdesarrollos.com/Iconos/traffic_jam/traffic_jam.png",
+                "icon_small": "https://cicdesarrollos.com/Iconos/traffic_jam/redimensionada_32x32.png"
+            },
+            "createdAt": "2024-10-13T18:29:30.722Z",
+            "__v": 0
+        },
+        {
+            "_id": "670c118a937774438d8e0f76",
+            "type": "Derrumbe o deslizamiento",
+            "description": "Caída de tierra, rocas o escombros que bloquean parcial o totalmente la carretera.",
+            "icons": {
+                "icon_normal": "https://cicdesarrollos.com/Iconos/landslide/landslide.png",
+                "icon_small": "https://cicdesarrollos.com/Iconos/landslide/redimensionada_32x32.png"
+            },
+            "createdAt": "2024-10-13T18:29:30.719Z",
+            "__v": 0
+        },
+        {
+            "_id": "670c118a937774438d8e0f77",
+            "type": "Cierre vial programado",
+            "description": "Cierre temporal de vías por eventos planificados como desfiles o carreras.",
+            "icons": {
+                "icon_normal": "https://cicdesarrollos.com/Iconos/roadblock/roadblock.png",
+                "icon_small": "https://cicdesarrollos.com/Iconos/roadblock/redimensionada_32x32.png"
+            },
+            "createdAt": "2024-10-13T18:29:30.719Z",
+            "__v": 0
+        },
+        {
+            "_id": "670c118a937774438d8e0f7b",
+            "type": "Vehículo averiado",
+            "description": "Vehículo detenido por fallas mecánicas que obstaculiza el flujo vehicular.",
+            "icons": {
+                "icon_normal": "https://cicdesarrollos.com/Iconos/broken_down_car/broken_down_car.png",
+                "icon_small": "https://cicdesarrollos.com/Iconos/broken_down_car/redimensionada_32x32.png"
+            },
+            "createdAt": "2024-10-13T18:29:30.721Z",
+            "__v": 0
+        },
+        {
+            "_id": "670c118a937774438d8e0f80",
+            "type": "Inundación",
+            "description": "Zonas anegadas por lluvias intensas, dificultando o impidiendo el tránsito vehicular.",
+            "icons": {
+                "icon_normal": "https://cicdesarrollos.com/Iconos/flood_road/flood_road.png",
+                "icon_small": "https://cicdesarrollos.com/Iconos/flood_road/redimensionada_32x32.png"
+            },
+            "createdAt": "2024-10-13T18:29:30.722Z",
+            "__v": 0
+        },
+        {
+            "_id": "670c118a937774438d8e0f79",
+            "type": "Semáforo dañado o apagado",
+            "description": "Problemas con la señalización de semáforos que dificultan la regulación del tránsito.",
+            "icons": {
+                "icon_normal": "https://cicdesarrollos.com/Iconos/traffic_light/traffic_light.png",
+                "icon_small": "https://cicdesarrollos.com/Iconos/traffic_light/redimensionada_32x32.png"
+            },
+            "createdAt": "2024-10-13T18:29:30.720Z",
+            "__v": 0
+        },
+        {
+            "_id": "670c118a937774438d8e0f78",
+            "type": "Animal en la vía",
+            "description": "Presencia de animales en la vía que afecta la circulación vehicular.",
+            "icons": {
+                "icon_normal": "https://cicdesarrollos.com/Iconos/animal_crossing_road/animal_crossing_road.png",
+                "icon_small": "https://cicdesarrollos.com/Iconos/animal_crossing_road/redimensionada_32x32.png"
+            },
+            "createdAt": "2024-10-13T18:29:30.720Z",
+            "__v": 0
+        },
+        {
+            "_id": "670c118a937774438d8e0f7a",
+            "type": "Control policial o militar",
+            "description": "Retenes o controles en la vía que ralentizan la circulación de vehículos.",
+            "icons": {
+                "icon_normal": "https://cicdesarrollos.com/Iconos/police_checkpoint/police_checkpoint.png",
+                "icon_small": "https://cicdesarrollos.com/Iconos/police_checkpoint/redimensionada_32x32.png"
+            },
+            "createdAt": "2024-10-13T18:29:30.720Z",
+            "__v": 0
+        },
+        {
+            "_id": "670c118a937774438d8e0f7c",
+            "type": "Obras en la vía",
+            "description": "Trabajos de construcción, reparación o mantenimiento de carreteras que afectan la movilidad.",
+            "icons": {
+                "icon_normal": "https://cicdesarrollos.com/Iconos/road_work/road_work.png",
+                "icon_small": "https://cicdesarrollos.com/Iconos/road_work/redimensionada_32x32.png"
+            },
+            "createdAt": "2024-10-13T18:29:30.721Z",
+            "__v": 0
+        },
+        {
+            "_id": "670c118a937774438d8e0f7d",
+            "type": "Manifestación o protesta",
+            "description": "Agrupaciones de personas bloqueando o ralentizando el tráfico en la vía pública.",
+            "icons": {
+                "icon_normal": "https://cicdesarrollos.com/Iconos/protest/protest.png",
+                "icon_small": "https://cicdesarrollos.com/Iconos/protest/redimensionada_32x32.png"
+            },
+            "createdAt": "2024-10-13T18:29:30.721Z",
+            "__v": 0
+        },
+        {
+            "_id": "670c118a937774438d8e0f7f",
+            "type": "Vehículo mal estacionado",
+            "description": "Vehículo estacionado en lugares inapropiados que bloquea parcial o totalmente la vía.",
+            "icons": {
+                "icon_normal": "https://cicdesarrollos.com/Iconos/illegal_parking/illegal_parking.png",
+                "icon_small": "https://cicdesarrollos.com/Iconos/illegal_parking/redimensionada_32x32.png"
+            },
+            "createdAt": "2024-10-13T18:29:30.722Z",
+            "__v": 0
+        }
+    ]
+}

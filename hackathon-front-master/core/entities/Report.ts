@@ -1,4 +1,5 @@
 import { ReportDTO } from "../interfaces/dto/ReportsResponseDTO";
+import reportTypesData from "@/infrastructure/api/report-types.json";
 
 export class Report {
 	id: string;
@@ -30,6 +31,15 @@ export class Report {
 	createdAt: string;
 
 	constructor(dto: ReportDTO) {
+		// Buscar los íconos correctos según el tipo de reporte
+		const reportType = reportTypesData.reportTypes.find(
+			(type) => type.type === dto.type.type
+		);
+
+		if (!reportType) {
+			throw new Error(`No se encontró un ícono para el tipo de reporte: ${dto.type.type}`);
+		}
+
 		this.id = dto._id;
 		this.coordinates = dto.coordinates;
 		this.type = {
@@ -37,8 +47,8 @@ export class Report {
 			type: dto.type.type,
 			description: dto.type.description,
 			icons: {
-				icon_normal: dto.type.icons.icon_normal,
-				icon_small: dto.type.icons.icon_small,
+				icon_normal: reportType.icons.icon_normal, // Sustitución de íconos
+				icon_small: reportType.icons.icon_small,  // Sustitución de íconos
 			},
 			createdAt: dto.type.createdAt,
 		};

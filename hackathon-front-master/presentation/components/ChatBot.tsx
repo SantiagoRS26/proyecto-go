@@ -38,8 +38,10 @@ const ChatBot: React.FC = () => {
 		setInput("");
 		setIsLoading(true);
 
+		const customURL = "http://localhost:3002/api/chatbot-movilidad";
+
 		try {
-			const response = await axiosInstance.post(`/chatbot-movilidad`, {
+			const response = await axiosInstance.post(customURL, {
 				question: input,
 			});
 

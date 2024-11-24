@@ -3,6 +3,7 @@ import axiosInstance from "./axiosInstance";
 import { PaginatedReportsResponseDTO, ReportsResponseDTO } from "@/core/interfaces/dto/ReportsResponseDTO";
 import { ReportTypesResponseDTO } from "@/core/interfaces/dto/ReportTypesResponseDTO";
 import { ReactReportResponseDTO } from "@/core/interfaces/dto/ReactReportResponseDTO";
+import reportTypesData from './report-types.json';
 
 export class ReportApi {
 	async getReports(pageNumber: number, pageSize: number): Promise<PaginatedReportsResponseDTO> {
@@ -60,15 +61,11 @@ export class ReportApi {
 
 	async getReportTypes(): Promise<ReportTypesResponseDTO> {
 		try {
-			const response = await axiosInstance.get<ReportTypesResponseDTO>(
-				"/report-types"
-			);
-			return response.data;
+			// Simular la obtención de datos directamente desde el archivo JSON
+			const response: ReportTypesResponseDTO = reportTypesData;
+			return response;
 		} catch (error: any) {
-			if (error.response && error.response.data && error.response.data.error) {
-				throw new Error(error.response.data.error);
-			}
-			throw new Error("Error desconocido al obtener los tipos de reportes");
+			throw new Error("Error desconocido al obtener los tipos de reportes desde el archivo");
 		}
 	}
 

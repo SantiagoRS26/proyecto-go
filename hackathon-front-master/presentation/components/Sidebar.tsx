@@ -129,7 +129,7 @@ const Sidebar: React.FC<SidebarProps> = ({ currentPath }) => {
 					{/* Encabezado del Sidebar */}
 					<div className="p-4 pb-2 flex justify-between items-center">
 						<motion.img
-							src="https://nnh1j9jnucf99zxs.public.blob.vercel-storage.com/icons/logo-j5hVoUW2onx2qv4RRzlSJwBdYtnPlS.PNG"
+							src="https://cicdesarrollos.com/Iconos/logo.PNG"
 							alt="Logo"
 							animate={{ width: expanded ? "8rem" : "0rem" }}
 							className="overflow-hidden transition-width max-w-24"
@@ -183,7 +183,7 @@ const Sidebar: React.FC<SidebarProps> = ({ currentPath }) => {
 							/>
 						)}
 
-						{hasRole(user, ["admin"]) && (
+						{/* {hasRole(user, ["admin"]) && (
 							<SidebarItem
 								icon={<FiLock />}
 								text="Actualizar pico y placa"
@@ -191,7 +191,7 @@ const Sidebar: React.FC<SidebarProps> = ({ currentPath }) => {
 								active={currentPath === "/dashboard/admin/picoyplaca"}
 								onClick={handleItemClick}
 							/>
-						)}
+						)} */}
 
 						{hasRole(user, ["admin"]) && (
 							<SidebarItem

@@ -146,7 +146,7 @@ export default function DashboardContent() {
 					if (report.type.icons.icon_normal || report.type.icons.icon_small) {
 						const iconElement = document.createElement("img");
 						//iconElement.src = report.type.icons.icon_normal;
-						iconElement.src = 'https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2_hdpi.png';
+						iconElement.src = report.type.icons.icon_small;
 						iconElement.style.width = "20px";
 						iconElement.style.height = "30px";
 						markerElement.appendChild(iconElement);
