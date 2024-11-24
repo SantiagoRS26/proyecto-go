@@ -38,7 +38,7 @@ const ChatBot: React.FC = () => {
 		setInput("");
 		setIsLoading(true);
 
-		const customURL = "http://localhost:3002/api/chatbot-movilidad";
+		const customURL = "https://proyecto-rjr11yssn-santiagors26s-projects.vercel.app/api/chatbot-movilidad";
 
 		try {
 			const response = await axiosInstance.post(customURL, {
